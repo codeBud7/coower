@@ -128,7 +128,7 @@
 				<key>scriptfile</key>
 				<string>index.js</string>
 				<key>subtext</key>
-				<string>Update available: 0.0.0 → 0.0.2. Run `npm install -g coower`</string>
+				<string>Type in the service you're looking for.</string>
 				<key>title</key>
 				<string>Search for services in ECS cluster.</string>
 				<key>type</key>
@@ -236,7 +236,7 @@
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>0.0.1</string>
+	<string>1.0.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/codebud7/coower#readme</string>
 </dict>
