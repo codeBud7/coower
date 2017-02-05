@@ -22,7 +22,9 @@ function callback(error, response, body) {
 		var projects = body.split('\n');
 		projects.pop();
 
-		var items = projects.map(x => ({
+		var items = projects.filter(function(item) {
+			return typeof item == 'string' && item.toLowerCase().indexOf(alfy.input.toLowerCase()) > -1;
+		}).map(x => ({
 			title: x.split(',')[0],
 			subtitle: 'Prio: ' + x.split(",")[1] + ', Port: ' + x.split(",")[2],
 			arg: awsUri + '{ENV}-Prio' + x.split(',')[1].charAt(0).toUpperCase() + x.split(',')[1].slice(1).toLowerCase() + '/services/{ENV}-' + x.split(',')[0] + '/tasks'

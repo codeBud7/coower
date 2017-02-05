@@ -1,5 +1,9 @@
+<img src="https://github.com/codeBud7/coower/blob/master/doc/screenshot.png">
+
 coower - Amazon ECS cluster service search for Alfred
 ==============================
+
+[![NPM](https://nodei.co/npm/coower.png)](https://nodei.co/npm/coower/)
 
 Prerequisites
 ----------------
