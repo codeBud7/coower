@@ -1,0 +1,44 @@
+{
+  "name": "cooper",
+  "version": "0.0.0",
+  "description": "Search for services in ECS cluster.",
+  "license": "MIT",
+  "repository": "codebud7/cooper",
+  "author": {
+    "name": "Sebastian Puskeiler",
+    "email": "spuskeiler@gmail.com",
+    "url": "github.com/codeBud7"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfred-link"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    ""
+  ],
+  "dependencies": {
+    "alfred-link": "^0.1.0",
+    "alfred-notifier": "^0.1.0",
+    "alfy": "^0.3.0",
+    "request": "2.79.0",
+    "csv-parse": "1.2.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.15.2",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
