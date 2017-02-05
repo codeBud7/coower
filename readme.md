@@ -30,9 +30,7 @@ Key Combinations
 
 Key Combination        | Action
 ---------------------- | ------
-`enter`                | Open build plan in default browser
-`ctrl`                | Open deploy plan in default browser
-`cmd`                | Open branch overview in default browser
+`enter`                | Open service in default browser
 
 Related
 ----------------
