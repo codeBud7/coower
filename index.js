@@ -4,9 +4,9 @@ const alfredNotifier = require('alfred-notifier');
 const request = require('request');
 const parse = require('csv-parse');
 
-const awsUri = alfy.config.get('cooper-awsUri');
-const csvFile = alfy.config.get('cooper-csvFileUri');
-const auth = alfy.config.get('cooper-authToken');
+const awsUri = alfy.config.get('coower-awsUri');
+const csvFile = alfy.config.get('coower-csvFileUri');
+const auth = alfy.config.get('coower-authToken');
 
 alfredNotifier();
 

@@ -3,9 +3,9 @@
 <plist version="1.0">
   <dict>
     <key>name</key>
-    <string>cooper</string>
+    <string>coower</string>
     <key>bundleid</key>
-    <string>com.codebud7.cooper</string>
+    <string>com.codebud7.coower</string>
     <key>category</key>
     <string>Productivity</string>
     <key>connections</key>
@@ -75,7 +75,7 @@
           <key>scriptfile</key>
           <string>index.js</string>
           <key>subtext</key>
-          <string>Update available: 0.0.0 → 0.0.2. Run `npm install -g cooper`</string>
+          <string>Update available: 0.0.0 → 0.0.2. Run `npm install -g coower`</string>
           <key>title</key>
           <string>Search for services in ECS cluster.</string>
           <key>type</key>

@@ -1,9 +1,9 @@
 {
-  "name": "cooper",
+  "name": "coower",
   "version": "0.0.0",
   "description": "Search for services in ECS cluster.",
   "license": "MIT",
-  "repository": "codebud7/cooper",
+  "repository": "codebud7/coower",
   "author": {
     "name": "Sebastian Puskeiler",
     "url": "github.com/codeBud7"
