@@ -57,6 +57,32 @@
 				<false/>
 			</dict>
 		</array>
+		<key>D8B5D1A6-382D-4CF2-AFE8-97802A83BBE0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>02C78F08-EC34-4F00-BB20-113370BCB6A0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E5867BA7-6257-4D4B-87CD-C8977B410E40</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>27D86339-C512-4FCD-AD80-87E5B809B4B7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>E60EB9BF-B000-42B4-93CB-5BD6F5344C7E</key>
 		<array>
 			<dict>
@@ -81,25 +107,6 @@
 	<string>coower</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>6CE3ADE7-E788-4746-8C1B-8CF275069D11</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -163,6 +170,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>6CE3ADE7-E788-4746-8C1B-8CF275069D11</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>matchmode</key>
 				<integer>0</integer>
 				<key>matchstring</key>
@@ -194,11 +220,113 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node configToken.js $1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>02C78F08-EC34-4F00-BB20-113370BCB6A0</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>coo-token</string>
+				<key>subtext</key>
+				<string>Just add the token to your aws connection.</string>
+				<key>text</key>
+				<string>Coower configuration</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>D8B5D1A6-382D-4CF2-AFE8-97802A83BBE0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node configCsv.js $1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>27D86339-C512-4FCD-AD80-87E5B809B4B7</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>coo-csv</string>
+				<key>subtext</key>
+				<string>Just add the csv path to your aws services.</string>
+				<key>text</key>
+				<string>Coower configuration</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>E5867BA7-6257-4D4B-87CD-C8977B410E40</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>02C78F08-EC34-4F00-BB20-113370BCB6A0</key>
+		<dict>
+			<key>xpos</key>
+			<integer>230</integer>
+			<key>ypos</key>
+			<integer>330</integer>
+		</dict>
+		<key>27D86339-C512-4FCD-AD80-87E5B809B4B7</key>
+		<dict>
+			<key>xpos</key>
+			<integer>230</integer>
+			<key>ypos</key>
+			<integer>460</integer>
+		</dict>
 		<key>2BE35487-5029-4FE2-B475-96C81E0D8AFD</key>
 		<dict>
 			<key>xpos</key>
@@ -227,6 +355,20 @@
 			<key>ypos</key>
 			<integer>120</integer>
 		</dict>
+		<key>D8B5D1A6-382D-4CF2-AFE8-97802A83BBE0</key>
+		<dict>
+			<key>xpos</key>
+			<integer>30</integer>
+			<key>ypos</key>
+			<integer>330</integer>
+		</dict>
+		<key>E5867BA7-6257-4D4B-87CD-C8977B410E40</key>
+		<dict>
+			<key>xpos</key>
+			<integer>30</integer>
+			<key>ypos</key>
+			<integer>460</integer>
+		</dict>
 		<key>E60EB9BF-B000-42B4-93CB-5BD6F5344C7E</key>
 		<dict>
 			<key>xpos</key>
@@ -236,7 +378,7 @@
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.1</string>
+	<string>1.0.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/codebud7/coower#readme</string>
 </dict>
